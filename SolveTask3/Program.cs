@@ -23,6 +23,18 @@
             ///
 
 
+            /////Task 2 – Power & Root Explorer
+
+
+            Console.Write("Enter a number: ");
+            double number = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Square: " + Math.Pow(number, 2));
+            Console.WriteLine("Square Root: " + Math.Sqrt(number));
+
+
+            ////////////////////////////////////////////////////////////////
+            ///
 
 
 
