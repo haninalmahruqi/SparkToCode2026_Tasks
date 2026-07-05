@@ -177,7 +177,33 @@
 
 
 
+            //Task 9: Day Name Finder 
 
+
+
+            Console.Write("Enter day number (1-7): ");
+
+            int day = int.Parse(Console.ReadLine());
+
+            switch (day)
+
+            {
+
+                case 1: Console.WriteLine("Sunday"); break;
+
+                case 2: Console.WriteLine("Monday"); break;
+
+                // ... add cases 3-7 similarly 
+
+                default: Console.WriteLine("Invalid day number"); break;
+
+            }
+
+
+
+            ///////////////////////////////////////////////////////// 
+
+            /// 
 
 
 
