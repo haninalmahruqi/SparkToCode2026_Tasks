@@ -177,6 +177,31 @@
             ///
 
 
+            ///Task 10 – Word Position Finder
+            ///
+
+            Console.Write("Enter sentence: ");
+            string sentence = Console.ReadLine();
+
+            Console.Write("Enter word: ");
+            string word = Console.ReadLine();
+
+            int first = sentence.IndexOf(word);
+            int last = sentence.LastIndexOf(word);
+
+            if (first == -1)
+            {
+                Console.WriteLine("Word not found");
+            }
+            else
+            {
+                Console.WriteLine("First Position: " + first);
+                Console.WriteLine("Last Position: " + last);
+            }
+
+            ////////////////////////////////////////////////////////////////
+            ///
+
 
 
 
