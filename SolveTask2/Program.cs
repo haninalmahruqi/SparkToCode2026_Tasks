@@ -76,6 +76,35 @@
             ////////////////////////////////////////////////////////////////
 
 
+            //5- Number Guessing Game
+            // Some Code To Solove The Task
+
+            int secretNum = 18;
+            int attemptsCount = 0;
+            int currentGuess = 0;
+
+            do
+            {
+                Console.WriteLine("Guss the number: ");
+                currentGuess = int.Parse(Console.ReadLine());
+                attemptsCount++;
+
+                if (currentGuess > secretNum)
+                {
+                    Console.WriteLine("Too High");
+                }
+                else if (currentGuess < secretNum)
+                {
+                    Console.WriteLine("Too Low");
+                }
+                else
+                {
+                    Console.WriteLine("Correct! It took you " + attemptsCount + " attempts.");
+                }
+
+            } while (currentGuess != secretNum);
+
+            ///////////////////////////////////////////////
 
 
 
