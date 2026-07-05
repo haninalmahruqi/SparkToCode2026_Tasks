@@ -17,7 +17,7 @@
             Console.WriteLine("Student: " + isStudent);
 
 
-            //problem2:Rectangle Calculator
+            //problem2: Rectangle Calculator
             Console.WriteLine("Enter length: ");
             double length = double.Parse(Console.ReadLine());
 
@@ -29,6 +29,20 @@
 
             Console.WriteLine("Area: " + area);
             Console.WriteLine("Perimeter: " + perimeter);
+
+
+
+
+            //problem3: Even or Odd Checker
+            Console.Write("Enter a number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+
+            if (n % 2 == 0) Console.WriteLine("Even");
+            else Console.WriteLine("Odd");
+
+
+
+
 
 
 
