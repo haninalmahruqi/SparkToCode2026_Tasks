@@ -73,6 +73,38 @@
             ///
 
 
+            //Task 5: Grade Letter Lookup 
+
+
+
+            Console.Write("Enter grade (A/B/C/D/F): ");
+
+            char grade = char.Parse(Console.ReadLine());
+
+            switch (grade)
+
+            {
+
+                case 'A': Console.WriteLine("Excellent"); break;
+
+                case 'B': Console.WriteLine("Very Good"); break;
+
+                case 'C': Console.WriteLine("Good"); break;
+
+                case 'D': Console.WriteLine("Pass"); break;
+
+                case 'F': Console.WriteLine("Fail"); break;
+
+                default: Console.WriteLine("Invalid grade"); break;
+
+            }
+
+
+
+            ////////////////////////////////////////////////////////// 
+
+            /// 
+
 
 
 
