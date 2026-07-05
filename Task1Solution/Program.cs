@@ -153,7 +153,27 @@
             /// 
 
 
+            //Task 8: Restaurant Bill 
 
+
+
+            Console.Write("Enter bill: ");
+
+            double bill = double.Parse(Console.ReadLine());
+
+            Console.Write("Member? (yes/no): ");
+
+            bool isMember = Console.ReadLine() == "yes";
+
+            double discount = (bill > 20 && isMember) ? bill * 0.15 : 0;
+
+            Console.WriteLine($"Original: {bill}, Discount: {discount}, Total: {bill - discount}");
+
+
+
+            ///////////////////////////////////////////////////////// 
+
+            ///
 
 
 
