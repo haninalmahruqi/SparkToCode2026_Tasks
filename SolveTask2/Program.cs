@@ -56,6 +56,24 @@
 
 
 
+            //4- Password Retry 
+            // Some Code To Solove The Task
+
+            string password = "1234";
+
+            Console.WriteLine("Enter the password: ");
+            string inputpassword = Console.ReadLine();
+
+            while (inputpassword != password)
+            {
+                Console.WriteLine("Incorrect password. Please try again: ");
+                Console.WriteLine("Enter the password: ");
+                inputpassword = Console.ReadLine();
+            }
+
+            Console.WriteLine("Access granted!");
+
+            ////////////////////////////////////////////////////////////////
 
 
 
