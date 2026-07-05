@@ -37,6 +37,18 @@
             ///
 
 
+            ///Task 3 – Name Formatter
+            ///
+
+            Console.Write("Enter your full name: ");
+            string name = Console.ReadLine();
+
+            Console.WriteLine("Uppercase: " + name.ToUpper());
+            Console.WriteLine("Lowercase: " + name.ToLower());
+            Console.WriteLine("Characters: " + name.Length);
+
+            ///////////////////////////////////////////////////////////////
+            ///
 
 
 
