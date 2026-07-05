@@ -17,7 +17,18 @@
             Console.WriteLine("Student: " + isStudent);
 
 
-            
+            //problem2:Rectangle Calculator
+            Console.WriteLine("Enter length: ");
+            double length = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter width: ");
+            double width = double.Parse(Console.ReadLine());
+
+            double area = length * width;
+            double perimeter = 2 * (length + width);
+
+            Console.WriteLine("Area: " + area);
+            Console.WriteLine("Perimeter: " + perimeter);
 
 
 
