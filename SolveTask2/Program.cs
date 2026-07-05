@@ -25,6 +25,21 @@
 
 
 
+            //2- Sum Of Nambers 1 to N
+            // Some Code To Solove The Task
+
+            Console.WriteLine("Enter a number: ");
+            int n = int.Parse(Console.ReadLine());
+            int total = 0;
+
+            for (int i = 1; i <= n; i++)
+            {
+                total += i;
+            }
+            Console.WriteLine("The final sum is:" + total);
+
+            //////////////////////////////////////////////////////
+
 
 
 
