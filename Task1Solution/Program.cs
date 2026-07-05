@@ -106,7 +106,29 @@
             /// 
 
 
+            //Task 6: Temperature Converter 
 
+
+
+            Console.Write("Enter Celsius: ");
+
+            double c = double.Parse(Console.ReadLine());
+
+            double f = (c * 9 / 5) + 32;
+
+            Console.WriteLine($"Fahrenheit: {f}");
+
+            if (c < 10) Console.WriteLine("Cold");
+
+            else if (c <= 30) Console.WriteLine("Mild");
+
+            else Console.WriteLine("Hot");
+
+
+
+            ////////////////////////////////////////////////////////// 
+
+            /// 
 
 
 
