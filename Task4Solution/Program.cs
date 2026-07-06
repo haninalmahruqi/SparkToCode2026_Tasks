@@ -213,7 +213,7 @@
 
 
 
-            ////I tried to solve problems number 10, 11, 12 but i did know how to solve them
+            ////I tried to solve problems number 10, 11, 12 but i did not know how to solve them
 
 
 
