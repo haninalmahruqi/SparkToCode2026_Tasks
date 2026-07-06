@@ -7,7 +7,9 @@
 
 
 
-            //Task1:
+            //Task1: Personalized Welcome Function
+
+
 
             Console.Write("Enter your name: ");
             string userName = Console.ReadLine();
@@ -19,6 +21,29 @@
         {
 
             Console.WriteLine("Welcome, " + name + "!");
+
+
+
+            ///////////////////////////////////
+            ///
+
+
+
+            ////Task 2 - Square Number Function
+
+            Console.Write("Enter an integer to square: ");
+            int input = int.Parse(Console.ReadLine());
+
+            int result = Square(input);
+            Console.WriteLine("The squared result is: " + result);
+
+            static int Square(int number)
+            {
+                return number * number;
+            }
+
+            /////////////////////////////////////////////////////////////////////////////////////
+
 
 
 
