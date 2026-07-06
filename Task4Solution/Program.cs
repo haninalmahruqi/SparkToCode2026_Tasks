@@ -169,6 +169,22 @@
 
 
 
+            //Task 8 - Countdown Function
+
+            Console.Write("Enter starting counter value: ");
+            int startVal = int.Parse(Console.ReadLine());
+            Countdown(startVal);
+
+            static void Countdown(int start)
+            {
+                for (int i = start; i >= 0; i--)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
+            //////////////////////////////////////////////////////////////////////////////////
+
 
 
 
