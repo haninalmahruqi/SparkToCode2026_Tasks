@@ -187,6 +187,27 @@
 
 
 
+            //Task 9 - Overloaded Multiply Function
+
+            //Console.WriteLine("[Overload 1 - Two Ints]: " + Multiply(4, 5));
+            //Console.WriteLine("[Overload 2 - Two Doubles]: " + Multiply(4.5, 2.0));
+            //Console.WriteLine("[Overload 3 - Three Ints]: " + Multiply(2, 3, 4));
+
+            //static int Multiply(int a, int b)
+            //{
+            //return a * b;
+            //}
+
+            //static double Multiply(double a, double b)
+            //{
+            //return a * b;
+            //}
+            //static int Multiply(int a, int b, int c)
+            //{
+            //return a * b * c;
+            //}
+
+            ///////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
